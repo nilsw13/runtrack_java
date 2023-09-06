@@ -5,8 +5,8 @@ import java.util.Random;
 public class JeuDesDe {
     public static void main(String[] args) {
         Random random = new Random();
-        int PremierDe = random.nextInt(6) + 1;
-        int DeuxiemeDe = random.nextInt(6) + 1;
+        int PremierDe = random.nextInt(1, 7);
+        int DeuxiemeDe = random.nextInt(1, 7);
         int SommeDesDe = PremierDe + DeuxiemeDe;
         System.out.println("Dé 1 : " + PremierDe);
         System.out.println("Dé 2 : " +DeuxiemeDe);
