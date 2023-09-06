@@ -1,4 +1,4 @@
-package jour1;
+package jour1.CompteBancaire;
 
 public class CompteBancaire {
     double solde = 100;
