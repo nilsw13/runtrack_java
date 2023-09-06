@@ -1,6 +1,6 @@
 package jour1;
 
-public class BanqueTest {
+public class CompteBancaire {
     double solde = 100;
 
     double soldeMaj;
@@ -33,11 +33,11 @@ public class BanqueTest {
     }
 
     public static void main(String[] args) {
-        BanqueTest banqueTest = new BanqueTest();
-        banqueTest.AfficherSolde();
-        banqueTest.Depot(150.0);
-        banqueTest.Retrait(180);
-        banqueTest.Retrait(70.0);
+        CompteBancaire compteBancaire = new CompteBancaire();
+        compteBancaire.AfficherSolde();
+        compteBancaire.Depot(150.0);
+        compteBancaire.Retrait(180);
+        compteBancaire.Retrait(70.0);
 
     }
 }
