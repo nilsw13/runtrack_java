@@ -1,4 +1,4 @@
-package jour1.Calculatrice;
+package jour1.Job03;
 import java.util.Scanner;
 public class Calculatrice {
     double chiffreA ;

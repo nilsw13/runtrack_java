@@ -1,4 +1,4 @@
-package jour1.JeuDesDe;
+package jour1.Job05;
 
 import java.util.Random;
 

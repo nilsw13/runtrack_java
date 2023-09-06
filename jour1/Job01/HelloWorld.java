@@ -1,4 +1,4 @@
-package jour1.HelloWorld;
+package jour1.Job01;
 
 import java.util.Scanner;
 

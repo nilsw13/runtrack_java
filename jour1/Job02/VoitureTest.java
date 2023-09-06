@@ -1,4 +1,4 @@
-package jour1.Voiture;
+package jour1.Job02;
 
 public class VoitureTest {
     int vitesse = 0;

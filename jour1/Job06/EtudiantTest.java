@@ -26,11 +26,11 @@ public class EtudiantTest {
 
             }
         }
-        System.out.print("] \n");;
-        CalculMoyenne();
+        System.out.print("] \n");
         NbMax();
         Nbmin();
-        System.out.println("Moyenne : " + moyenne);
+        CalculMoyenne();
+
 
     }
 
@@ -41,6 +41,7 @@ public class EtudiantTest {
             total += notes[i];
         }
         moyenne = (double) total / nombreDeNotes;
+        System.out.println("Moyenne: " + moyenne);
 
     }
 
@@ -82,11 +83,10 @@ public class EtudiantTest {
 
         EtudiantTest etudiant = new EtudiantTest("Bob", new int[]{15, 12, 18, 10});
         etudiant.AfficherInfos();
-        etudiant.AddNote(7);
-        etudiant.AfficherInfos();
+        etudiant.NbMax();
+        etudiant.Nbmin();
+        etudiant.CalculMoyenne();
         etudiant.AddNote(8);
-        etudiant.AfficherInfos();
-        etudiant.AddNote(2);
         etudiant.AfficherInfos();
 
     }
