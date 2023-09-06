@@ -14,8 +14,8 @@ public class VoitureTest {
     public void Demarrer() {
         System.out.println("La voiture demarre");
     }
-    public void Accelerer (int increment) {
-        vitesse += increment;
+    public void Accelerer () {
+        vitesse += 10;
         System.out.println("la voiture roule maintenant a " + vitesse + "km/h");
 
     }
@@ -30,8 +30,8 @@ public class VoitureTest {
     public static void main(String[] args) {
         VoitureTest maVoiture = new VoitureTest("Rouge", "Toyota", 0);
         maVoiture.Demarrer();
-        maVoiture.Accelerer(10);
-        maVoiture.Accelerer(10);
+        maVoiture.Accelerer();
+        maVoiture.Accelerer();
         maVoiture.Freiner(maVoiture.vitesse);
     }
 }
