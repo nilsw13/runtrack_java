@@ -16,14 +16,14 @@ public class VoitureTest {
     }
     public void Accelerer () {
         vitesse += 10;
-        System.out.println("la voiture roule maintenant a " + vitesse + "km/h");
+        System.out.println("la vitesse est maintenant de " + vitesse + "km/h");
 
     }
 
     public void Freiner (int decrement) {
         if (vitesse - decrement >= 0){
             vitesse -= decrement;
-            System.out.println("La voiture s'arrete. Vitesse reinitialisé a " + vitesse + "km/h");
+            System.out.println("La voiture s'arrete. Vitesse reinitialisée à " + vitesse + "km/h");
         }
     }
 
