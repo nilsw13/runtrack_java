@@ -1,9 +1,10 @@
 package jour2.job02;
 
-public class Homme extends Nageur {
+public class Homme implements Nageur {
+
 
     @Override
-    public void Nager() {
-        System.out.println("L'hommme nage");
+    public void nager() {
+        System.out.println("L'homme nage.");
     }
 }

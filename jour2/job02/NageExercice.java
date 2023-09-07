@@ -1,11 +1,11 @@
 package jour2.job02;
 
-public class Main {
+public class NageExercice {
     public static void main(String[] args) {
         Homme h = new Homme();
-        h.Nager();
+        h.nager();
 
         Poisson p = new Poisson();
-        p.Nager();
+        p.nager();
     }
 }
