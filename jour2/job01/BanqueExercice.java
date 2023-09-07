@@ -1,4 +1,4 @@
-package jour2;
+package jour2.job01;
 import jour1.Job04.CompteBancaire;
 
 public class BanqueExercice extends CompteBancaire {
