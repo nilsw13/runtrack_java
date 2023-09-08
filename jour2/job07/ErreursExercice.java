@@ -73,7 +73,10 @@ public class ErreursExercice {
 
     public static void main(String[] args) throws Exception {
 
-        ErreursExercice e = new ErreursExercice(10, 0);
+
+
+        ErreursExercice e = new ErreursExercice(0, 6);
+
         e.ErreursExercice();
         e.AfficherIndex(2);
 

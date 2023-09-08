@@ -28,7 +28,7 @@ public class VoitureTest {
     }
 
     public static void main(String[] args) {
-        VoitureTest maVoiture = new VoitureTest("Rouge", "Toyota", 0);
+        VoitureTest maVoiture = new VoitureTest("Rouge", "Toyota", 50);
         maVoiture.Demarrer();
         maVoiture.Accelerer();
         maVoiture.Accelerer();
