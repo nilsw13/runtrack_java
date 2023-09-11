@@ -16,7 +16,7 @@ public class CallableFuturExercice implements Callable<Integer> {
 
     public static void main(String[] args) {
         if (args.length <= 0){
-            System.out.println("Veuillez fournir un argument pour definir le solde du compte en banque ainsi que le montant a retiré");
+            System.out.println("Utilisation: java CallableFuturExercice Argument1 = nombre 1       Argument2 = nombre2");
             return;
         }
 
@@ -32,7 +32,7 @@ public class CallableFuturExercice implements Callable<Integer> {
 
         try {
             int result = future.get();
-            System.out.println("Resultat: " + result);
+            System.out.println("Resultat de la multiplication: " + result);
         } catch (InterruptedException| ExecutionException e) {
             e.printStackTrace();
         }

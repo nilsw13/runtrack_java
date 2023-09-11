@@ -23,7 +23,7 @@ public class ExecutorServiceExercice implements Callable<Integer> {
     public static void main(String[] args) {
 
         if (args.length <= 0){
-            System.out.println("Veuillez fournir un argument pour definir le solde du compte en banque ainsi que le montant a retiré");
+            System.out.println("Veuillez fournir un argument pour definir le nombre qui sera mutliplié par les différents coéefficient");
             return;
         }
 
@@ -47,9 +47,9 @@ public class ExecutorServiceExercice implements Callable<Integer> {
             int produit2 = result2.get();
             int produit3 = result3.get();
 
-            System.out.println("Résultat de la tache 1 : " + produit1);
-            System.out.println("Résultat de la tache 2 : " + produit2);
-            System.out.println("Résultat de la tache 3 : " + produit3);
+            System.out.println("Résultat de la tâche 1 : " + produit1);
+            System.out.println("Résultat de la tâche 2 : " + produit2);
+            System.out.println("Résultat de la tâche 3 : " + produit3);
         }catch (Exception e){
             e.printStackTrace();
         }finally {
