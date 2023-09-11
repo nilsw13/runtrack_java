@@ -1,11 +1,11 @@
-package jour4.job03;
+package jour4.job06;
 
-public class SynchronizationExercice extends Thread{
+public class LockExercice extends Thread{
     public static int soldeInitial;
     int retrait;
 
 
-    public SynchronizationExercice(int retrait){
+    public LockExercice(int retrait){
         this.retrait = retrait;
     }
 
@@ -34,8 +34,8 @@ public class SynchronizationExercice extends Thread{
         soldeInitial = Integer.parseInt(args[0]);
         int retrait = Integer.parseInt(args[1]);
 
-        SynchronizationExercice thread1 = new SynchronizationExercice(retrait);
-        SynchronizationExercice thread2 = new SynchronizationExercice(retrait);
+        LockExercice thread1 = new LockExercice(retrait);
+        LockExercice thread2 = new LockExercice(retrait);
         thread1.start();
         System.out.println("Thread 1 a retiré" + " " + retrait);
 
@@ -57,4 +57,3 @@ public class SynchronizationExercice extends Thread{
 
     }
 }
-
