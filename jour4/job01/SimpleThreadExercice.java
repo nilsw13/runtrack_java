@@ -6,7 +6,7 @@ public class SimpleThreadExercice extends Thread {
             @Override
             public void run() {
                 for (int i = 0; i<5; i++){
-                    System.out.println("salut thread");
+                    System.out.println("salut du thread");
                     try {
                         Thread.sleep(1000);
                     } catch (InterruptedException e) {
