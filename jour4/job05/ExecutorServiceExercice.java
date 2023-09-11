@@ -16,7 +16,7 @@ public class ExecutorServiceExercice implements Callable<Integer> {
     }
 
     @Override
-    public  Integer call() throws Exception {
+    public  Integer call(){
         return chiffrePourCalcul * coefficient;
     }
 
