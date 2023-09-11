@@ -1,6 +1,6 @@
 package jour4.job01;
 
-public class SimpleThreadExercice extends Thread {
+public class SimpleThreadExercice {
     public static void main(String[] args) {
         Runnable simplethread = new Runnable() {
             @Override
