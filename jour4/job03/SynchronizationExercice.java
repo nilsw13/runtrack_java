@@ -20,8 +20,6 @@ public class SynchronizationExercice extends Thread{
 
     public synchronized void retrait() {
         soldeInitial -= retrait;
-
-
     }
 
 
@@ -50,7 +48,7 @@ public class SynchronizationExercice extends Thread{
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        thread2.join();
+
 
         System.out.println("solde final: " + soldeInitial);
 
