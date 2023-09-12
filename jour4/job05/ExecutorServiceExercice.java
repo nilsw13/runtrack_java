@@ -51,6 +51,7 @@ public class ExecutorServiceExercice implements Callable<Integer> {
             System.out.println("Résultat de la tâche 2 : " + produit2);
             System.out.println("Résultat de la tâche 3 : " + produit3);
         }catch (Exception e){
+
             e.printStackTrace();
         }finally {
             executor.shutdown();
